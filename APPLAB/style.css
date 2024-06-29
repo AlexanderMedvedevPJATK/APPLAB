@@ -1,0 +1,1016 @@
+p {
+	font-size: 19px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation */
+
+.nav {
+	margin: 2% auto 0 auto;
+	display: flex;
+	flex-direction: column;
+}
+
+.logo_img {
+	margin: 0 auto;
+}
+
+.nav_btns {
+	text-align: center;
+	width: 100%;
+	margin: 1% auto 0;
+}
+
+.nav_button {
+	margin-left: 3%;
+	color: #000;
+	transition: color 0.1s linear;
+}
+
+.nav_button:hover {
+	color: #2500f9;
+	text-decoration: none;
+}
+
+.nav_btns a:first-child {
+	margin-left: 0;
+}
+
+.nav_btns a:last-of-type {
+	margin-right: 3%;
+}
+
+.free {
+	border: none;
+	background-color: #2500f9;
+	color: #fff;
+	padding: 2.5% 4.5%;
+	border-radius: 35px;
+	font-weight: bold;
+}
+
+.nav_free {
+	padding: 1% 2%;
+}
+
+.free:hover {
+	background-color: #1e00c7;
+}
+
+.free:focus {
+	outline: none;
+}
+
+/* Best */
+
+.best {
+	margin: 20% 0 0 3%;
+	width: 50%;
+}
+
+.best img {
+	margin-bottom: 3%;
+}
+
+.best_h1 {
+	font-weight: bold;
+	color: #242f51;
+	font-size: 60px;
+	margin-bottom: 3%;
+}
+
+.best_p {
+	font-weight: 600;
+	color: #616368;
+	font-size: 18px;
+	margin-bottom: 8%;
+}
+
+.demo {
+	font-weight: 600;
+	color: #2500f9;
+}
+
+.demo:hover {
+	color: #2500f9;
+}
+
+.best button {
+	margin-right: 5%;
+	padding: 3% 6%;
+}
+
+.main_img {
+	width: 47%;
+}
+
+/* Features */
+
+.companies {
+	margin-top: 10%;
+	text-align: center;
+	width: 100%;
+}
+
+.companies p {
+	font-size: 17px;
+	font-weight: 600;
+}
+
+.company_img {
+	margin-left: 6%;
+}
+
+.companies img:first-of-type {
+	margin-left: 0;
+}
+
+.features {
+	width: 100%;
+}
+
+.features_img {
+	width: 60%;
+	height: 100%;
+	margin: auto 0;
+}
+
+.features_img img {
+	position: relative;
+	left: -10%;
+	margin-top: 10%;
+	width: 95%;
+}
+
+.app {
+	width: 40%;
+	margin-top: 15%;
+}
+
+.app_h1 {
+	width: 70%;
+	font-weight: bold;
+}
+
+.app_p {
+	width: 100%;
+	margin-bottom: 20%;
+}
+
+.features_desc {
+	display: flex;
+	width: 100%;
+}
+
+.desc_img {
+	margin: auto 5% auto 0;
+}
+
+.desc_text {
+	width: 70%;
+}
+
+.desc_text h2 {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 4%;
+}
+
+.red_h2 {
+	color: #f55767;
+}
+
+.blue_h2 {
+	color: #2563ff;
+}
+
+.green_h2 {
+	color: #40975f;
+}
+
+.jackpot {
+	margin-top: 7%;
+}
+
+.jackpot_text {
+	display: flex;
+	align-items: center;
+}
+
+.jackpot_text h1 {
+	width: 100%;
+	font-weight: bold;
+	color: #242f51;
+	border-right: 1px solid #b9b9b8;
+	padding-right: 10%;
+}
+
+.jackpot_text p {
+	padding-left: 10%;
+}
+
+.jackpot_inner {
+	margin-top: 10%;
+	display: flex;
+}
+
+.jackpot_card {
+	width: 30%;
+	margin-left: 12%;
+}
+
+.jackpot_card:first-child {
+	margin-left: 0;
+}
+
+.jackpot_card h2 {
+	font-size: 20px;
+	font-weight: 600;
+	margin: 7% 0 4%;
+}
+
+/* Design */
+
+.design_inner {
+	margin-top: 10%;
+	display: flex;
+}
+
+.design_img {
+	margin-left: auto;
+}
+
+.design_img img {
+	width: 100%;
+}
+
+.design_text {
+	width: 20%;
+	margin: auto auto auto 5%;
+	margin-right: auto;
+}
+
+.design_text h1 {
+	color: #242f51;
+	font-weight: bold;
+	margin-bottom: 5%;
+}
+
+.design_text button {
+	margin-top: 5%;
+	padding: 3% 6%;
+}
+
+.choose {
+	margin-top: 15%;
+}
+
+.choose_text {
+	text-align: center;
+	width: 36%;
+	margin: 0 auto 7%;
+}
+
+.choose_text h2 {
+	font-weight: bold;
+	font-size: 36px;
+	width: 70%;
+	margin: 0 auto 5%;
+	color: #242f51;
+}
+
+.choose_inner {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 60%;
+	margin: 0 auto;
+}
+
+.choose_card {
+	display: flex;
+	flex-direction: column;
+	width: 26%;
+	align-items: center;
+	margin-bottom: 5%;
+}
+
+.choose_card_img {
+	margin-bottom: 8%;
+}
+
+.choose_card_text {
+	text-align: center;
+}
+
+.choose_card_text h3 {
+	color: #242f51;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+/* Ultimate */
+
+.ultimate {
+	margin-top: 10%;
+	width: 100%;
+}
+
+.ultimate_inner {
+	display: flex;
+}
+
+.ultimate_main {
+	margin-left: 20%;
+	width: 30%;
+}
+
+.ultimate_text {
+	width: 80%;
+	margin-bottom: 10%;
+}
+
+.ultimate_text h2 {
+	color: #242f51;
+	font-weight: bold;
+	width: 70%;
+	margin-bottom: 5%;
+}
+
+.ultimate_cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.ult_card {
+	width: 45%;
+	margin-bottom: 10%;
+}
+
+.ultimate_img {
+	height: 100%;
+	margin: auto;
+}
+
+.ultimate_img img {
+	width: 100%;
+}
+
+.ultimate_button {
+	padding: 1.5% 6%;
+}
+
+/* Price */
+
+.section-3 {
+	margin-top: 10%;
+}
+
+.pricing_inner {
+	display: flex;
+	flex-direction: column;
+}
+
+.pricing_text {
+	text-align: center;
+	width: 57%;
+	margin: 0 auto;
+}
+
+.pricing_text h2 {
+	font-weight: bold;
+	font-size: 36px;
+	color: #242f51;
+	width: 90%;
+	margin: 0 auto 4%;
+}
+
+.pricing_switcher {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 24%;
+	height: 45px;
+	border: 2px solid #ebebeb;
+	border-radius: 35px;
+	padding: 0 1%;
+	margin: 7% auto;
+	position: relative;
+}
+
+.switch {
+	height: 90%;
+	width: 49%;
+	text-align: center;
+	border-radius: 35px;
+	padding: 3%;
+	color: #898a8e;
+	position: absolute;
+	left: 1%;
+	top: 5%;
+	cursor: pointer;
+}
+
+.switch:last-child {
+	left: 50%;
+}
+
+.switch-text {
+	height: 100%;
+	width: 100%;
+}
+
+.active {
+	background-color: #2500f9;
+	color: #fff;
+}
+
+.pricing_boxes {
+	width: 60%;
+	display: flex;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.business {
+	width: 60%;
+	height: 95%;
+	box-shadow: 0px 0px 20px 10px #ebeff1;
+}
+
+.price {
+	display: none;
+}
+
+.offer {
+	background-color: #f8fafb;
+	border-radius: 10px;
+	padding-bottom: 10%;
+	margin-bottom: 10%;
+}
+
+.pro {
+	width: 60%;
+	border: 3px solid #ebeff1;
+	margin-left: 5%;
+}
+
+.price-span {
+	color: #242f51;
+	font-size: 60px;
+	font-weight: 600;
+}
+
+.visible {
+	display: block;
+}
+
+.offer h4 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #242f51;
+}
+
+.trial {
+	font-weight: 100;
+	padding: 5% 15%;
+	margin: 5% 0;
+}
+
+/* Reviews */
+
+.reviews {
+	margin-top: 10%;
+}
+
+.reviews_inner {
+	display: flex;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.review_img {
+	width: 50%;
+	margin: auto 0;
+}
+
+.review_img img {
+	width: 100%;
+}
+
+.clients_reviews {
+	width: 60%;
+}
+
+.clients_reviews {
+	width: 40%;
+}
+
+.clients_reviews h1 {
+	font-weight: bold;
+	color: #242f51;
+	margin-bottom: 2%;
+}
+
+.clients_reviews h4 {
+	font-weight: 600;
+	color: #242f51;
+	font-size: 20px;
+}
+
+.stars_img {
+	margin: 3% 0;
+}
+
+.employees {
+	display: flex;
+	margin-top: 7%;
+}
+
+.employee_desc {
+	margin-left: 3%;
+}
+
+.employee_desc h5 {
+	width: 100%;
+	font-weight: 600;
+	color: #242f51;
+	margin: 13% 0 3% 0;
+}
+
+.arrows {
+	position: relative;
+	left: 15%;
+	margin: auto 0;
+}
+
+/* Download */
+
+.download {
+	display: flex;
+	margin-top: 10%;
+	position: relative;
+}
+
+.download_text {
+	margin: 5% 0 5% 10%;
+	width: 40%;
+}
+
+.download_text h1 {
+	font-weight: bold;
+	font-size: 48px;
+	color: #242f51;
+}
+
+.download_text p {
+	width: 76%;
+	margin: 3% 0 5%;
+}
+
+.get img {
+	width: 30%;
+}
+
+.get img:first-child {
+	margin-right: 4%;
+}
+
+.download_img {
+	width: 44%;
+	height: 100%;
+}
+
+.download_img img {
+	width: 100%;
+}
+
+/* Footer */
+
+.footer {
+	background-color: #09142e;
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.footer_logo {
+	margin-bottom: 1%;
+	display: flex;
+	justify-content: center;
+}
+
+.footer_text p {
+	margin: 0 auto;
+}
+
+.footer_nav {
+	display: flex;
+	width: 50%;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.footer_text {
+	color: #3d465a;
+	text-align: center;
+}
+
+.footer_nav a {
+	color: #fff;
+}
+
+.social_networks {
+	width: 8%;
+	margin: 2% auto;
+	width: 20%;
+}
+
+.social_networks img {
+	width: 10%;
+	margin-left: 18%;
+}
+
+/* Media Properties */
+
+@media screen and (max-width: 1200px) {
+	.companies {
+		margin-bottom: 10%;
+	}
+
+	.features_img {
+		width: 50%;
+	}
+
+	.app {
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.design_text {
+		width: 40%;
+		text-align: center;
+	}
+
+	.design_img {
+		width: 50%;
+	}
+
+	.jackpot_text h1 {
+		padding-right: 1%;
+	}
+
+	.jackpot_text p {
+		padding-left: 1%;
+	}
+
+	.ultimate_main {
+		margin-left: 5%;
+		width: 50%;
+	}
+
+	.review_img {
+		width: 40%;
+	}
+
+	.clients_reviews {
+		width: 60%;
+	}
+
+	.clients_reviews h1 {
+		font-size: 30px;
+		width: 60%;
+	}
+
+	.download_text h1 {
+		font-size: 30px;
+	}
+
+	.footer_nav {
+		width: 55%;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.main_page {
+		margin-top: 5%;
+	}
+
+	.best {
+		margin: auto 0 auto 0;
+	}
+
+	.best h1 {
+		font-size: 35px;
+		margin: 4% 0;
+	}
+
+	.phone_img {
+		width: 100%;
+	}
+
+	.nav button {
+		padding: 2% 4%;
+	}
+
+	.nav_button {
+		margin-left: 6%;
+	}
+
+	.nav_btns a:last-of-type {
+		margin-right: 2%;
+	}
+
+	.company_img {
+		width: 14%;
+	}
+
+	.app h1 {
+		font-size: 30px;
+	}
+
+	.app p {
+		font-size: 14px;
+		margin-bottom: 10%;
+	}
+
+	.jackpot_text {
+		margin: 5% 0;
+	}
+
+	.jackpot_text h1 {
+		font-size: 25px;
+	}
+
+	.design_img {
+		margin: auto;
+		width: 50%;
+	}
+
+	.design_img img {
+		width: 90%;
+	}
+
+	.design_text {
+		width: 50%;
+		margin-left: 0;
+		text-align: center;
+	}
+
+	.design_text h1 {
+		font-size: 25px;
+	}
+
+	.choose_text {
+		width: 70%;
+	}
+
+	.choose_inner {
+		width: 95%;
+	}
+
+	.ultimate {
+		margin: 15% 0;
+	}
+
+	.ultimate_main {
+		width: 90%;
+		margin-left: 5%;
+	}
+
+	.ultimate_btn {
+		display: flex;
+		justify-content: center;
+	}
+
+	.ultimate_text {
+		text-align: center;
+		width: 100%;
+	}
+
+	.ultimate_text h2 {
+		width: 100%;
+	}
+
+	.ultimate_img {
+		display: none;
+	}
+
+	.pricing_boxes {
+		width: 80%;
+	}
+
+	.reviews_inner {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	.review_img {
+		width: 90%;
+		margin: 10% auto 0;
+	}
+
+	.clients_reviews {
+		width: 100%;
+		text-align: center;
+	}
+
+	.clients_reviews h1 {
+		width: 100%;
+	}
+
+	.employees {
+		justify-content: center;
+	}
+
+	.download {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.download_text {
+		width: 95%;
+		margin-left: 5%;
+		text-align: center;
+	}
+
+	.download_text p {
+		margin: 3% auto;
+	}
+
+	.get img {
+		width: 20%;
+	}
+
+	.download_img {
+		width: 50%;
+		margin: 0 auto;
+	}
+
+	.download_img img {
+		margin-top: 5%;
+	}
+
+	.footer_nav {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 770px) {
+	.logo {
+		position: relative;
+		left: 0;
+		width: 100%;
+	}
+
+	.nav_button {
+		margin-left: 3%;
+		font-size: 13px;
+	}
+
+	.phone_img {
+		width: 100%;
+		float: right;
+	}
+
+	.best {
+		width: 53%;
+	}
+
+	.best h1 {
+		font-size: 25px;
+	}
+
+	.best p {
+		font-size: 15px;
+	}
+
+	.best_img {
+		width: 100%;
+	}
+
+	.best button {
+		font-size: 12px;
+	}
+
+	.best a {
+		font-size: 12px;
+	}
+
+	.app {
+		width: 100%;
+		margin: 10% 5%;
+	}
+
+	.features_img {
+		display: none;
+	}
+
+	.jackpot p {
+		font-size: 15px;
+	}
+
+	.jackpot_text h1 {
+		width: 170%;
+		text-align: center;
+	}
+
+	.pricing_text {
+		width: 100%;
+	}
+
+	.pricing_switcher {
+		width: 38%;
+	}
+
+	.pricing_boxes {
+		width: 100%;
+	}
+
+	.offer {
+		height: 43%;
+	}
+
+	.pro {
+		height: 103%;
+	}
+
+	.get img {
+		width: 30%;
+	}
+
+	.footer_nav {
+		margin: 1% auto;
+	}
+
+	.social_networks {
+		width: 40%;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.nav_free {
+		font-size: 12px;
+	}
+
+	.main_page {
+		margin-top: 10%;
+	}
+
+	.best h1 {
+		font-size: 25px;
+	}
+
+	.best {
+		width: 52%;
+		margin-left: 1%;
+	}
+
+	.best_img {
+		width: 100%;
+	}
+
+	.best button {
+		font-size: 13px;
+		margin-right: 1%;
+	}
+
+	.best a {
+		font-size: 13px;
+	}
+
+	.phone_img {
+		width: 90%;
+		float: right;
+	}
+
+	.jackpot_text h1 {
+		width: 200%;
+		text-align: center;
+	}
+
+	.employees {
+		width: 98%;
+	}
+
+	.footer_nav {
+		width: 80%;
+		margin: 4% auto;
+	}
+
+	.social_networks {
+		width: 50%;
+		margin-bottom: 4%;
+	}
+}
